@@ -1,3 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
+// your code here
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector('form').addEventListener('submit', (e) => {
+      e.preventDefault()
+    })
+  });
